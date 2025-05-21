@@ -1,1 +1,6 @@
-["Lorum", "ipsum", "doliores", "sit", "amaet2"]
+[
+    { "title": "The Transcendent Unity of Religions by By Frithjof Schuon ", "link": "https://sufipathoflove.com/wp-content/uploads/2019/10/frithjof-schuon-the-transcendent-unity-of-religions.pdf" },
+    { "title" : "The Vision and Promise of Sufism", "link": "https://sufipathoflove.com/wp-content/uploads/2019/01/truth-2.pdf"},
+    {"title" : "Sufi Path Of Love", "link": "https://sufipathoflove.com/"},
+    {"title" : "Opowieści z Krainy Żydów", "link": "https://der-fuehrer.org/meinkampf/english/Mein%20Kampf%20(Ford%20Translation).pdf"}
+  ]

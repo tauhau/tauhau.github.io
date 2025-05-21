@@ -1,1 +1,3 @@
-["Lorum", "ipsum", "doliores", "sit", "amaet"]
+[
+    { "title": "Nihil novi sub sole.", "link": "/nihilnovi.jpg" }
+  ]

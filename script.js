@@ -21,10 +21,15 @@ document.addEventListener('click', async function (event) {
         if (!response.ok) throw new Error('Network response was not ok');
         const data = await response.json();
   
-        // Assuming the JSON file is an array of strings/items
+        // Expecting array of { title, link }
         data.forEach(item => {
           const li = document.createElement('li');
-          li.textContent = item;
+          const a = document.createElement('a');
+          a.textContent = item.title;
+          a.href = item.link;
+          a.target = '_blank'; // optional: open in new tab
+          a.classList.add('lista_link')
+          li.appendChild(a);
           listContainer.appendChild(li);
         });
       } catch (error) {

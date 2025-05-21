@@ -29,7 +29,28 @@ body{
     display: flex;
     justify-content: center;
 }
-.shelf h2{
+
+h2 .shelf{
     font-style: normal;
     font-weight: 400;
+}
+
+#lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+#lista li{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.lista_link{
+    text-decoration: unset;
+    color: inherit;
 }
