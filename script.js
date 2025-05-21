@@ -9,8 +9,10 @@ document.addEventListener('click', async function (event) {
       // Determine which file to fetch
       let jsonFile = '';
       if (event.target.classList.contains('uniwersalia')) {
+        console.log('uniwersalia')
         jsonFile = 'uniwersalia.json';
       } else if (event.target.classList.contains('notatki')) {
+        console.log('notatki')
         jsonFile = 'notatki.json';
       }
   
