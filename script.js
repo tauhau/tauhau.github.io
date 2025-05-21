@@ -1,7 +1,7 @@
 document.addEventListener('click', async function (event) {
     // Check if the clicked element has the desired class
     if (event.target.classList.contains('uniwersalia') || event.target.classList.contains('notatki')) {
-      const listContainer = document.getElementById('list-container');
+      const listContainer = document.getElementById('lista');
       
       // Clear previous content
       listContainer.innerHTML = '';
